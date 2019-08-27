@@ -71,6 +71,8 @@ D_ENTERA = 13//5 			#2
 RESTO = 13%5 				#3
 ```
 
+**Sigues con dudas de esto?**: Dirígete al anexo A00 - Aritmética
+
 
 
 ## Operatoria básica: Lógica
@@ -93,6 +95,10 @@ AND_1 = COND_1 and COND_2	#False
 AND_2 = COND_1 and NOT_F	#True
 OR_1 = COND_1 or COND_2		#True
 ```
+
+**Sigues con dudas de esto?**: Dirígete al capítulo A01 - Compuertas Lógicas
+
+
 
 ## Operatoria básica: strings
 
@@ -124,7 +130,7 @@ Esto se soluciona mediante la conversión de tipos
 ```python
 EDAD = 12
 
-FRASE = "Hola. Soy Rocio y tengo " + str(EDAD)
-#Hola. Soy Rocio y tengo 12
+FRASE = "Hola. Soy Rocio y tengo " + str(EDAD)  #Hola. Soy Rocio y tengo 12
 ```
 
+**¿Más cosas con strings?**: Dirígete al capítulo C02 - Strings
