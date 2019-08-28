@@ -92,7 +92,7 @@ Ambos bloques son útiles dependiendo del contexto. Por ejemplo:
 
 ```python
 ENCOMIENDA = "CAJAS"
-MASA_kg = 12
+MASA_kg = 13
 
 # Condiciones donde los bloques if-elif-else corresponde
 if ENCOMIENDA == "CAJAS":
