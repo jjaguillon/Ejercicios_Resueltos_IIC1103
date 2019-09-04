@@ -73,6 +73,36 @@ RESTO = 13%5 				#3
 
 **Sigues con dudas de esto?**: Dirígete al anexo A00 - Aritmética
 
+## Operatoria básica: Comparadores
+
+Cuando trabajamos con variables de tipo **int** o **float**, podemos utilizar comparadores numéricos para obtener valores **bool** que indiquen el cumplimiento de la comparación.
+
+```python
+X = 10
+Y = 20
+
+print(X == Y)
+```
+
+Entiéndase el siguiente lenguaje utilizado: un valor **se cumple** cuando su variable es **True**. Por el contrario,  un valor **no se cumple** cuando su variable es **False**
+
+Los comparadores numéricos son:
+
+- Igualdad **==** : **se cumple** si ambos valores son **iguales**.
+- Diferencia **!=** : **se cumple** si los valores son **diferentes**.
+- Mayor (o igual) a **>**(**=**) : **se cumple** si el primer valor **es mayor** (**o igual**) que el segundo.
+- Menor (o igual) a **<**(**==**) : **se cumple** si el primer valor **es menor** (**o igual**) que el segundo.
+
+```python
+X = 10
+Y = 20
+
+EQ  = X == Y #False (10 == 20)
+NEQ = X != Y #True  (10 != 20)
+GRT = X > Y  #False (10 > 20)
+LEQ = X <= Y #True  (10 <= 20)
+```
+
 
 
 ## Operatoria básica: Lógica
@@ -93,7 +123,7 @@ COND_2 = False
 NOT_F = not(COND_2)			#True
 AND_1 = COND_1 and COND_2	#False
 AND_2 = COND_1 and NOT_F	#True
-OR_1 = COND_1 or COND_2		#True
+OR_1  = COND_1 or COND_2	#True
 ```
 
 **Sigues con dudas de esto?**: Dirígete al capítulo A01 - Compuertas Lógicas
