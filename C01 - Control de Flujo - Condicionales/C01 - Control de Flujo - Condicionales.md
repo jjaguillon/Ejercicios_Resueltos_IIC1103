@@ -105,4 +105,6 @@ else:
     print("Se envia por bicicleta")
 ```
 
+Por ejemplo, en este caso, se imprimirá que puede enviarse tanto por vagoneta, como por camión.
+
 **Todavía no entiendo cual usar cuando.** Puede dirigirse al anexo A02 - Teoría de conjuntos
